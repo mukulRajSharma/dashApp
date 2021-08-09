@@ -135,8 +135,8 @@ class App extends React.Component {
             <Popup
               showTitle={true}
               title="Add Risk"
-              width={500}
-              height={500} 
+              width={300}
+              height={400} 
               resizeEnabled={true}
               visible={this.state.isRiskVisible}
               onHiding={this.hideRisk}
