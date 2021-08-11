@@ -70,87 +70,87 @@ class App extends React.Component {
   render() {
     return (
       <React.Fragment>
-        <div>
-        <div style={{marginLeft:40}}>
-          <h2>Raw Data</h2>
-          {/* <DropDownButton
-            text="Select user"
-            icon="user"
-            dropDownOptions={{ width: 230 }}
-            items={this.dropDataSource}
-            onItemClick={this.onItemClick}
-            // onOptionChanged={this.setCurrentUser}
-          /> */}
-        </div>
-        <div style={{width:1080, marginLeft:40}}>
-          <DataGrid
-          dataSource={jj}
-          allowColumnReordering={true}
-          showBorders={true}
-          ref={this.dataGridRef}
-          >
-          <FilterRow visible={true} />
-          <GroupPanel visible={true} />
-          <SearchPanel visible={true} highlightCaseSensitive={true} />
-          <Grouping autoExpandAll={false} />
-
-          <Selection
-            mode="multiple"
-            selectAllMode={this.state.allMode}
-            showCheckBoxesMode={this.state.checkBoxesMode}
-          />
-          <Column
-            dataField="port"
-            caption="Port"
-          />
-          <Column
-            dataField="ip_proto"
-            caption="IP Protocol"
-          />
-          <Column
-            dataField="service"
-            caption="Service"
-          />
-          <Column
-            dataField="description"
-            caption="Description"
-          />
-          <Column
-            dataField="source"
-            caption="Source"
-          />
-          <Column type="buttons" caption="Add Service">
-              <GridButton name="tags" icon="add" onClick={this.showTag}/>
-          </Column>
-
-          <Pager allowedPageSizes={pageSizes} showPageSizeSelector={true} />
-          <Paging defaultPageSize={5} />
-
-          </DataGrid>
-          <div style={{'text-align':'center', margin:20}}>
-            <Button
-                  width={180}
-                  text="Trust selected"
-                  type="success"
-                  stylingMode="contained"
-                  onClick={this.onSubmitClick}
-              />
+        <div style={{'margin':'auto', 'width':'80%'}}>
+          <div>
+            <h2>Raw Data</h2>
+            {/* <DropDownButton
+              text="Select user"
+              icon="user"
+              dropDownOptions={{ width: 230 }}
+              items={this.dropDataSource}
+              onItemClick={this.onItemClick}
+              // onOptionChanged={this.setCurrentUser}
+            /> */}
           </div>
           <div>
-            <Popup
-                showTitle={true}
-                title="Add Service"
-                width={200}
-                height={200} 
-                resizeEnabled={true}
-                visible={this.state.isTagVisible}
-                onHiding={this.hideTag}
+            <DataGrid
+            dataSource={jj}
+            allowColumnReordering={true}
+            showBorders={true}
+            ref={this.dataGridRef}
             >
-              <p>Enter service name: </p>
-              <input></input>
-            </Popup>
+            <FilterRow visible={true} />
+            <GroupPanel visible={true} />
+            <SearchPanel visible={true} highlightCaseSensitive={true} />
+            <Grouping autoExpandAll={false} />
+
+            <Selection
+              mode="multiple"
+              selectAllMode={this.state.allMode}
+              showCheckBoxesMode={this.state.checkBoxesMode}
+            />
+            <Column
+              dataField="port"
+              caption="Port"
+            />
+            <Column
+              dataField="ip_proto"
+              caption="IP Protocol"
+            />
+            <Column
+              dataField="service"
+              caption="Service"
+            />
+            <Column
+              dataField="description"
+              caption="Description"
+            />
+            <Column
+              dataField="source"
+              caption="Source"
+            />
+            <Column type="buttons" caption="Add Service">
+                <GridButton name="tags" icon="add" onClick={this.showTag}/>
+            </Column>
+
+            <Pager allowedPageSizes={pageSizes} showPageSizeSelector={true} />
+            <Paging defaultPageSize={5} />
+
+            </DataGrid>
+            <div style={{'text-align':'center', margin:20}}>
+              <Button
+                    width={180}
+                    text="Trust selected"
+                    type="success"
+                    stylingMode="contained"
+                    onClick={this.onSubmitClick}
+                />
+            </div>
+            <div>
+              <Popup
+                  showTitle={true}
+                  title="Add Service"
+                  width={200}
+                  height={200} 
+                  resizeEnabled={true}
+                  visible={this.state.isTagVisible}
+                  onHiding={this.hideTag}
+              >
+                <p>Enter service name: </p>
+                <input></input>
+              </Popup>
+            </div>
           </div>
-        </div>
       </div>
       </React.Fragment>
     );

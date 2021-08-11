@@ -64,11 +64,11 @@ class App extends React.Component {
   }
   render(){
     return(
-      <div>
-        <div style={{width:1080, marginLeft:40}}>
+      <div style={{'margin':'auto', 'width':'80%'}}>
+        <div>
           <h2>Trusted List</h2>
         </div>
-        <div style={{width:1080, marginLeft:40}}>
+        <div>
           <DataGrid
             dataSource={this.state.rows}
             allowColumnReordering={true}
