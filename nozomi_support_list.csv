@@ -1,0 +1,25 @@
+Vendor, Protocol Name, Notes, Source, Port, Protocol
+3gpp, GTP (GPRS TUnneling Protocol), Control Plane, IANA,2123,6
+3gpp, GTP (GPRS TUnneling Protocol), Control Plane, IANA,2123,17
+3gpp, GTP (GPRS TUnneling Protocol), User Plane, IANA,2152,6
+3gpp, GTP (GPRS TUnneling Protocol), User Plane, IANA,2123,17
+ABB,,,,,
+Allen-Bradley,PCCC,,http://torqservices.com/torq/docs/MacroView/PcccDriver/index.htm?station_routing.htm,,
+ASHRAE,BACNet,,GitHub,47808,17
+Aspentech,Cim/IO,PI3,SG,5450,6
+Aspentech,Cim/IO,PI3,SG,5450,17
+Aspentech,Cim/IO,PI2,SG,545,6
+Atlas Copco,Atlas Copco Open Protocol,for MTF6000 controller,https://www.flexibleassembly.com/content/files/Atlas-Copco/Atlas-Copco-MT-Focus-6000-Open-Protocol.pdf,4545,6
+Beckhoff,ADS,,,,
+Beckhoff,EtherCAT,,,,
+Bittorrent,Bittorrent,traffic,wikipedia,6881-6889,06/17/21
+Bittorrent,Bittorrent,tracker,wikipedia,6969,6
+Bristol,BSAP,,https://www.kepware.com/getattachment/e5f2b12c-846e-4148-a984-1c25b95a6505/bristol-ip-manual.pdf,1234,17
+Bristol,BSAP/IP,,https://www.kepware.com/getattachment/e5f2b12c-846e-4148-a984-1c25b95a6505/bristol-ip-manual.pdf,1234,17
+CC-Link,CC-Link IE Field,Common http/ftp,,,
+CEI,CEI 79-5/2-3,alarm?,,,
+Cisco,CDP,,wikipedia,4224,6
+Cisco,HSRP,,wikipedia,1985,17
+,,,,,
+,,,,,
+Protocol,,,,,
