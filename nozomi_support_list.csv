@@ -14,11 +14,53 @@ Bittorrent,Bittorrent, Bittorrent traffic,6881-6889,21
 Bittorrent,Bittorrent, Bittorrent tracker,6969,6
 Bristol,BSAP,1234,17
 Bristol,BSAP/IP,1234,17
-CC-Link, CC-LINK IE Field, 61450, 17
-CC-Link, CC-LINK IE Field, 61450, 17
+CC-Link, CC-LINK IE Field, CC-LINK IE Field cyclic transmission, 61450, 17
+CC-Link, CC-LINK IE Field, CC-LINK IE Field automatic detection, 61451, 17
 CEI,CEI 79-5/2-3,alarm?,,,
-Cisco,CDP,,wikipedia,4224,6
-Cisco,HSRP,,wikipedia,1985,17
-,,,,,
-,,,,,
-Protocol,,,,,
+Cisco,CDP,Cisco Discovery Protocol,4224,6
+Cisco,HSRP,Hot Standby Router Protocol,1985,17
+
+
+Dropbox, Dropbox, Dropbox web, 80, 6
+Dropbox, Dropbox, Dropbox web, 443, 6
+
+
+Dropbox, Dropbox, Dropbox web, 17600, 6
+Dropbox, Dropbox, Dropbox web, 17603, 6
+Dropbox, Dropbox, Dropbox LAN Sync, 17500, 6
+Emerson, DeltaV, DeltaV Distributed Control System, 
+Emerson, Ovation DCS, Ovation Distributed Control System, 
+eMule-Team, eMule, 4661, 6
+eMule-Team, eMule, 4665, 17
+eMule-Team, eMule, 4672, 17
+eMule-Team, eMule, 4675, 6
+eMule-Team, eMule, 7561, 6
+eMule-Team, eMule, 7571, 17
+eMule-Team, eMule, 28221, 6
+Enron corporation, Enron Modbus, 502, 6
+Enron corporation, Enron Modbus, 802, 6
+FANUC, Focas, 8193, 6
+FieldComm Group, Foundation Fieldbus, 1090, 6
+Foxboro, Foxboro I/A, 9001, 6
+Foxboro, Foxboro I/A, 9001, 17
+GE, EGD, Ethernet Global Data, 18246, 17
+GE, EGD, Ethernet Global Data, 7937, 17
+GE, EGD, Ethernet Global Data, 7927, 17
+GE, iFix2iFix, 53014, 17
+GE, iFix2iFix, 2010, 6
+GE, SRTP, Service Request Transport Protocol, 18245, 6
+GE, SRTP, Service Request Transport Protocol, 18246, 6
+GVCP, GVCP, GigE Vision Control, 3956, 6
+GVCP, GVCP, GigE Vision Control, 3956, 17
+IBM, DRDA, Distributed Relational Database Architecture, 446, 6
+IBM, DRDA, Distributed Relational Database Architecture, 447, 6
+IBM, DRDA, Distributed Relational Database Architecture, 448, 6
+iMatrix, ZMTP, ZeroMQ Message Transport Protocol, 993, 6
+iMatrix, ZMTP, ZeroMQ Message Transport Protocol, 465, 6
+ISO, TSAP, Transport Service Access Point, 102, 6
+ISO, TSAP, Transport Service Access Point, 102, 17
+ISO, TSAP-C2, Transport Service Access Point, 399, 6
+ISO, TSAP-C2, Transport Service Access Point, 399, 17
+ISO, MQTT, Message Queuing Telemetry Transport Protocol, 8883, 6
+ISO, MQTT, Message Queuing Telemetry Transport Protocol, 1883, 6
+Kongsberg, 
