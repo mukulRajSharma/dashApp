@@ -18,5 +18,15 @@ export const navigation = [
     //     path: '/tasks'
     //   }
     // ]
+  }, 
+  {
+    text: 'Vendors',
+    path: '/vendors',
+    icon: 'card'
+  }, 
+  {
+    text: 'Tags',
+    path: '/tags',
+    icon: 'tags'
   }
   ];

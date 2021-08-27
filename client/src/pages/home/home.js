@@ -20,6 +20,7 @@ import {
   Popup
 } from 'devextreme-react/popup';
 import { TagBox } from 'devextreme-react/tag-box';
+import Form, { Item } from 'devextreme-react/form';
 
 
 var jj = require('./port_info.json');
@@ -47,12 +48,34 @@ class App extends React.Component {
       isTagVisible: false,
       postId:1
     }
+    this.onToolbarPreparing = this.onToolbarPreparing.bind(this);
     this.onItemClick = this.onItemClick.bind(this);
     // this.setCurrentUser = this.setCurrentUser.bind(this);
     this.onSubmitClick = this.onSubmitClick.bind(this);
     // this.sendJson = this.sendJson.bind(this);
     this.hideTag = this.hideTag.bind(this);
     this.showTag = this.showTag.bind(this);
+  }
+  onToolbarPreparing(e) {
+    e.toolbarOptions.items.unshift({
+      location: 'before',
+      widget: 'dxButton',
+      options: {
+        width: 100,
+        text: 'New',
+        icon: 'add',
+        stylingMode: 'contained',
+        type: 'success'
+        // onClick: this.collapseAllClick.bind(this)
+      }
+    },{
+      location: 'after',
+      widget: 'dxButton',
+      options: {
+        icon: 'refresh',
+        // onClick: this.refreshDataGrid.bind(this)
+      }
+    });
   }
   get dataGrid() {
     return this.dataGridRef.current.instance;
@@ -88,9 +111,10 @@ class App extends React.Component {
             allowColumnReordering={true}
             showBorders={true}
             ref={this.dataGridRef}
+            onToolbarPreparing={this.onToolbarPreparing}
             >
-            <FilterRow visible={true} />
-            <GroupPanel visible={true} />
+            {/* <FilterRow visible={true} /> */}
+            {/* <GroupPanel visible={true} /> */}
             <SearchPanel visible={true} highlightCaseSensitive={true} />
             <Grouping autoExpandAll={false} />
 
@@ -113,14 +137,14 @@ class App extends React.Component {
             />
             <Column
               dataField="description"
-              caption="Description"
+              caption="Name"
             />
             <Column
               dataField="source"
               caption="Source"
             />
-            <Column type="buttons" caption="Add Service">
-                <GridButton name="tags" icon="add" onClick={this.showTag}/>
+            <Column type="buttons" caption="">
+                <GridButton name="tags" icon="edit" onClick={this.showTag}/>
             </Column>
 
             <Pager allowedPageSizes={pageSizes} showPageSizeSelector={true} />
@@ -136,18 +160,40 @@ class App extends React.Component {
                     onClick={this.onSubmitClick}
                 />
             </div>
+            
             <div>
               <Popup
                   showTitle={true}
-                  title="Add Service"
-                  width={200}
-                  height={200} 
+                  title="Edit Service"
+                  width={800}
+                  height={450} 
                   resizeEnabled={true}
                   visible={this.state.isTagVisible}
                   onHiding={this.hideTag}
               >
-                <p>Enter service name: </p>
-                <input></input>
+                <div>
+              <Form
+                onContentReady={this.validateForm}
+                colCount={2}
+                id="form"
+                formData={this.employee}
+              >
+                <Item dataField="Port" editorOptions={{ disabled: false }} />
+                <Item dataField="IP Protcol" editorOptions={{ disabled: false }} />
+                <Item dataField="Service" editorOptions={{ disabled: false }} />
+                <Item dataField="Name" editorOptions={{ disabled: false }} />
+                <Item dataField="Source" editorOptions={{ disabled: false }} />              
+              </Form>
+            </div>
+            <div style={{'text-align':'center', margin:20}}>
+              <Button
+                    width={180}
+                    text="Add to trusted"
+                    type="success"
+                    stylingMode="contained"
+                    onClick={this.onSubmitClick}
+                />
+            </div>
               </Popup>
             </div>
           </div>

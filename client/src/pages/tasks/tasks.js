@@ -14,8 +14,10 @@ import {
   Popup
 } from 'devextreme-react/popup';
 import { TagBox } from 'devextreme-react/tag-box';
+import TextBox from "devextreme/ui/text_box";
 
-const pageSizes = [10, 25, 50, 100];
+
+const pageSizes = [5, 10, 25, 50, 100];
 
 class App extends React.Component {
   constructor(props){
@@ -73,6 +75,7 @@ class App extends React.Component {
             dataSource={this.state.rows}
             allowColumnReordering={true}
             showBorders={true}
+            wordWrapEnabled={true}
           >
             <FilterRow visible={true} />
             <GroupPanel visible={true} />
@@ -92,26 +95,19 @@ class App extends React.Component {
               caption="Service"
             />
             <Column
-              dataField="description"
+              dataField="name"
               caption="Description"
-            />
-            <Column
-              dataField="source"
-              caption="Source"
             />
             <Column
               dataField="author"
               caption="Author"
             />
-            <Column type="buttons" caption="Tags">
-              <Button name="tags" icon="add" onClick={this.showTag}/>
-            </Column>
-            <Column type="buttons" caption="Risks">
+            <Column type="buttons" caption="Risk">
               <Button name="risks" icon="add" onClick={this.showRisk}/>
             </Column>
 
             <Pager allowedPageSizes={pageSizes} showPageSizeSelector={true} />
-            <Paging defaultPageSize={10} />
+            <Paging defaultPageSize={5} />
           </DataGrid>
           <div>
             <Popup
