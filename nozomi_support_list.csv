@@ -63,4 +63,36 @@ ISO, TSAP-C2, Transport Service Access Point, 399, 6
 ISO, TSAP-C2, Transport Service Access Point, 399, 17
 ISO, MQTT, Message Queuing Telemetry Transport Protocol, 8883, 6
 ISO, MQTT, Message Queuing Telemetry Transport Protocol, 1883, 6
-Kongsberg, 
+McCaleb, Jeb & Yagan, Sam, eDonkey, 5737, 17
+McCaleb, Jeb & Yagan, Sam, eDonkey, 4661, 6
+McCaleb, Jeb & Yagan, Sam, eDonkey, 4662, 6
+McCaleb, Jeb & Yagan, Sam, eDonkey, 4666, 17
+McCaleb, Jeb & Yagan, Sam, eDonkey, 4667, 6
+McCaleb, Jeb & Yagan, Sam, eDonkey, 4672, 17
+Microsoft, KMS, Key Management Service, 1688, 6
+Microsoft, KMS, Key Management Service, 1688, 17
+Microsoft, SQL server, 1433, 6
+Microsoft, SQL server, 4022, 6
+Microsoft, SQL server, 135, 6
+Microsoft, SQL server, 1434, 6
+Microsoft, SQL server, 1434, 17
+Microsoft, WUDO, Windows Update Delivery Optimization, 7680, 6
+Microsoft, WUDO, Windows Update Delivery Optimization, 3544, 17
+Milestone Systems, Xprotect Image Server, 6473, 6
+Milestone Systems, Xprotect Image Server, 12345, 6
+Milestone Systems, Xprotect Image Server, 12974, 6
+Mitsubishi, Melsec, 1025, 6
+Mitsubishi, Melsec, 1026, 17
+IETF, DCE-RPC, 135, 6
+IETF, DCE-RPC, 135, 17
+IETF, DHCP, Dynamic Host Configuration Protocol, 67, 17
+IETF, DHCP, Dynamic Host Configuration Protocol, 68, 17
+IETF, DHCPv6, 546, 17
+IETF, DHCPv6, 547, 17
+IETF, DNS, Domain Name System, 53, 6
+IETF, DNS, Domain Name System, 53, 17
+IETF, FTP, File Transfer Protocol, 21, 6
+IETF, FTP, File Transfer Protocol, 21, 17
+IETF, FTPS, File Transfer Protocol Secure, 990, 6
+IETF, HTTP, Hypertext Transfer Protocol, 80, 6
+IETF, HTTP, Hypertext Transfer Protocol, 80, 17

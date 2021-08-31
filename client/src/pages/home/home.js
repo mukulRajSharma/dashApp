@@ -113,8 +113,8 @@ class App extends React.Component {
             ref={this.dataGridRef}
             onToolbarPreparing={this.onToolbarPreparing}
             >
-            {/* <FilterRow visible={true} /> */}
-            {/* <GroupPanel visible={true} /> */}
+            <FilterRow visible={true} />
+            <GroupPanel visible={true} />
             <SearchPanel visible={true} highlightCaseSensitive={true} />
             <Grouping autoExpandAll={false} />
 
