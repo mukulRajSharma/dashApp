@@ -1,0 +1,49 @@
+	(1, 'Print', 100),
+        (2, 'VoIP', 100),
+        (3, 'Media streaming', 100),
+        (4, 'Remote login', 50),
+        (5, 'Web', 10),
+        (6, 'Discovery', 10),
+        (7, 'Network onboarding', 10),
+        (8, 'Device management', 10),
+        (9, 'Time sync', 10),
+        (10, 'Name resolution', 10),
+        (11, 'Troubleshooting', 10);
+        
+Avaya phone
+UDP/1719 - (31, 1822, 2)
+UDP/1720 - (32, 1823, 2)
+
+
+HP Printer
+TCP/9100 - (33, 1824, 1)
+TCP/5357 - (34, 1825, 5), (35, 1825, 6)
+TCP/3910 - (36, 1827, 1), (37, 1827, )
+UDP/1022
+UDP/5355 - (38, 1620, 10)
+
+Cisco Meraki
+TCP/7734
+UDP/7351
+UDP/1812
+
+Kyocera printers
+UDP/5358
+TCP/9070
+TCP/9090
+
+Richo printer
+TCP/53000
+TCP/53001
+
+TASKalfa Printer
+TCP/9090
+TCP/9091
+UDP/1022
+UDP/546
+TCP/25
+UDP/47808
+UDP/1900
+UDP/9
+TCP/515
+UDP/138

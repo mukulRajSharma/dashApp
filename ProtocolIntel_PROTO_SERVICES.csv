@@ -1,0 +1,371 @@
+1,17,47808,BACnet/IP,BACnet/IP
+2,6,20000,DNP3,DNP3
+3,17,20000,DNP3,DNP3
+4,17,34980,EtherCAT,EtherCAT
+5,6,44818,Ethernet/IP,Ethernet/IP
+6,17,44818,Ethernet/IP,Ethernet/IP
+7,17,2222,Ethernet/IP,Ethernet/IP
+8,17,55000,FL-net,FL-net
+9,17,55001,FL-net,FL-net
+10,17,55002,FL-net,FL-net
+11,17,55003,FL-net,FL-net
+12,6,1089,Foundation Fieldbus HSE,Foundation Fieldbus HSE
+13,6,1090,Foundation Fieldbus HSE,Foundation Fieldbus HSE
+14,6,1091,Foundation Fieldbus HSE,Foundation Fieldbus HSE
+15,17,1089,Foundation Fieldbus HSE,Foundation Fieldbus HSE
+16,17,1090,Foundation Fieldbus HSE,Foundation Fieldbus HSE
+17,17,1091,Foundation Fieldbus HSE,Foundation Fieldbus HSE
+18,6,102,ICCP,ICCP
+19,6,502,Modbus TCP,Modbus TCP
+20,6,4840,OPC UA Discovery Server,OPC UA Discovery Server
+21,6,80,OPC UA XML,OPC UA XML
+22,6,443,OPC UA XML,OPC UA XML
+23,6,34962,PROFINET,PROFINET
+24,6,34963,PROFINET,PROFINET
+25,6,34964,PROFINET,PROFINET
+26,17,34962,PROFINET,PROFINET
+27,17,34963,PROFINET,PROFINET
+28,17,34964,PROFINET,PROFINET
+29,6,4000,ROC PLus,ROC PLus
+30,6,4000,ROC Plus,ROC Plus
+31,17,4000,ROC Plus,ROC Plus
+32,6,55555,Foxboro DCS FoxApi,Foxboro DCS FoxApi
+33,17,55555,Foxboro DCS FoxApi,Foxboro DCS FoxApi
+34,6,45678,Foxboro DCS AIMAPI,Foxboro DCS AIMAPI
+35,17,45678,Foxboro DCS AIMAPI,Foxboro DCS AIMAPI
+36,6,1541,Foxboro DCS Informix,Foxboro DCS Informix
+37,17,1541,Foxboro DCS Informix,Foxboro DCS Informix
+38,6,18000,Genesis32 GenBroker,Genesis32 GenBroker
+39,6,11001,Metasys N1,Metasys N1
+40,17,11001,Metasys N1,Metasys N1
+41,17,47808,Metasys BACNet,Metasys BACNet
+42,6,5450,PI Server,PI Server
+43,6,50001,Spectrum Power TG,Spectrum Power TG
+44,6,50002,Spectrum Power TG,Spectrum Power TG
+45,6,50003,Spectrum Power TG,Spectrum Power TG
+46,6,50004,Spectrum Power TG,Spectrum Power TG
+47,6,50005,Spectrum Power TG,Spectrum Power TG
+48,6,50006,Spectrum Power TG,Spectrum Power TG
+49,6,50007,Spectrum Power TG,Spectrum Power TG
+50,6,50008,Spectrum Power TG,Spectrum Power TG
+51,6,50009,Spectrum Power TG,Spectrum Power TG
+52,6,50010,Spectrum Power TG,Spectrum Power TG
+53,6,50011,Spectrum Power TG,Spectrum Power TG
+54,6,50012,Spectrum Power TG,Spectrum Power TG
+55,6,50013,Spectrum Power TG,Spectrum Power TG
+56,6,50014,Spectrum Power TG,Spectrum Power TG
+57,6,50015,Spectrum Power TG,Spectrum Power TG
+58,6,50016,Spectrum Power TG,Spectrum Power TG
+59,6,50018,Spectrum Power TG,Spectrum Power TG
+60,6,50019,Spectrum Power TG,Spectrum Power TG
+61,6,50020,Spectrum Power TG,Spectrum Power TG
+62,17,50020,Spectrum Power TG,Spectrum Power TG
+63,17,50021,Spectrum Power TG,Spectrum Power TG
+64,6,50025,Spectrum Power TG,Spectrum Power TG
+65,6,50026,Spectrum Power TG,Spectrum Power TG
+66,6,50027,Spectrum Power TG,Spectrum Power TG
+67,6,50028,Spectrum Power TG,Spectrum Power TG
+68,6,50110,Spectrum Power TG,Spectrum Power TG
+69,6,50111,Spectrum Power TG,Spectrum Power TG
+70,6,38000,GENe,GENe
+71,6,38001,GENe,GENe
+72,6,38011,GENe,GENe
+73,6,38012,GENe,GENe
+74,6,38014,GENe,GENe
+75,6,38015,GENe,GENe
+76,6,38200,GENe,GENe
+77,6,38210,GENe,GENe
+78,6,38301,GENe,GENe
+79,6,38400,GENe,GENe
+80,6,38700,GENe,GENe
+81,6,62900,GENe,GENe
+82,6,62911,GENe,GENe
+83,6,62924,GENe,GENe
+84,6,62930,GENe,GENe
+85,6,62938,GENe,GENe
+86,6,62956,GENe,GENe
+87,6,62957,GENe,GENe
+88,6,62963,GENe,GENe
+89,6,62981,GENe,GENe
+90,6,62982,GENe,GENe
+91,6,62985,GENe,GENe
+92,6,62992,GENe,GENe
+93,6,63012,GENe,GENe
+94,6,63027,GENe,GENe
+95,6,63028,GENe,GENe
+96,6,63029,GENe,GENe
+97,6,63030,GENe,GENe
+98,6,63031,GENe,GENe
+99,6,63032,GENe,GENe
+100,6,63033,GENe,GENe
+101,6,63034,GENe,GENe
+102,6,63035,GENe,GENe
+103,6,63036,GENe,GENe
+104,6,63041,GENe,GENe
+105,6,63075,GENe,GENe
+106,6,63079,GENe,GENe
+107,6,63082,GENe,GENe
+108,6,63088,GENe,GENe
+109,6,63094,GENe,GENe
+110,6,65443,GENe,GENe
+111,17,5050,OASyS DNA,OASyS DNA
+112,17,5051,OASyS DNA,OASyS DNA
+113,6,5052,OASyS DNA,OASyS DNA
+114,6,5065,OASyS DNA,OASyS DNA
+115,6,12135,OASyS DNA,OASyS DNA
+116,6,12136,OASyS DNA,OASyS DNA
+117,6,12137,OASyS DNA,OASyS DNA
+118,6,56001,OASyS DNA,OASyS DNA
+119,6,56002,OASyS DNA,OASyS DNA
+120,6,56003,OASyS DNA,OASyS DNA
+121,6,56004,OASyS DNA,OASyS DNA
+122,6,56005,OASyS DNA,OASyS DNA
+123,6,56006,OASyS DNA,OASyS DNA
+124,6,56007,OASyS DNA,OASyS DNA
+125,6,56008,OASyS DNA,OASyS DNA
+126,6,56009,OASyS DNA,OASyS DNA
+127,6,56010,OASyS DNA,OASyS DNA
+128,6,56011,OASyS DNA,OASyS DNA
+129,6,56012,OASyS DNA,OASyS DNA
+130,6,56013,OASyS DNA,OASyS DNA
+131,6,56014,OASyS DNA,OASyS DNA
+132,6,56015,OASyS DNA,OASyS DNA
+133,6,56016,OASyS DNA,OASyS DNA
+134,6,56017,OASyS DNA,OASyS DNA
+135,6,56018,OASyS DNA,OASyS DNA
+136,6,56019,OASyS DNA,OASyS DNA
+137,6,56020,OASyS DNA,OASyS DNA
+138,6,56021,OASyS DNA,OASyS DNA
+139,6,56022,OASyS DNA,OASyS DNA
+140,6,56023,OASyS DNA,OASyS DNA
+141,6,56024,OASyS DNA,OASyS DNA
+142,6,56025,OASyS DNA,OASyS DNA
+143,6,56026,OASyS DNA,OASyS DNA
+144,6,56027,OASyS DNA,OASyS DNA
+145,6,56028,OASyS DNA,OASyS DNA
+146,6,56029,OASyS DNA,OASyS DNA
+147,6,56030,OASyS DNA,OASyS DNA
+148,6,56031,OASyS DNA,OASyS DNA
+149,6,56032,OASyS DNA,OASyS DNA
+150,6,56033,OASyS DNA,OASyS DNA
+151,6,56034,OASyS DNA,OASyS DNA
+152,6,56035,OASyS DNA,OASyS DNA
+153,6,56036,OASyS DNA,OASyS DNA
+154,6,56037,OASyS DNA,OASyS DNA
+155,6,56038,OASyS DNA,OASyS DNA
+156,6,56039,OASyS DNA,OASyS DNA
+157,6,56040,OASyS DNA,OASyS DNA
+158,6,56041,OASyS DNA,OASyS DNA
+159,6,56042,OASyS DNA,OASyS DNA
+160,6,56043,OASyS DNA,OASyS DNA
+161,6,56044,OASyS DNA,OASyS DNA
+162,6,56045,OASyS DNA,OASyS DNA
+163,6,56046,OASyS DNA,OASyS DNA
+164,6,56047,OASyS DNA,OASyS DNA
+165,6,56048,OASyS DNA,OASyS DNA
+166,6,56049,OASyS DNA,OASyS DNA
+167,6,56050,OASyS DNA,OASyS DNA
+168,6,56051,OASyS DNA,OASyS DNA
+169,6,56052,OASyS DNA,OASyS DNA
+170,6,56053,OASyS DNA,OASyS DNA
+171,6,56054,OASyS DNA,OASyS DNA
+172,6,56055,OASyS DNA,OASyS DNA
+173,6,56056,OASyS DNA,OASyS DNA
+174,6,56057,OASyS DNA,OASyS DNA
+175,6,56058,OASyS DNA,OASyS DNA
+176,6,56059,OASyS DNA,OASyS DNA
+177,6,56060,OASyS DNA,OASyS DNA
+178,6,56061,OASyS DNA,OASyS DNA
+179,6,56062,OASyS DNA,OASyS DNA
+180,6,56063,OASyS DNA,OASyS DNA
+181,6,56064,OASyS DNA,OASyS DNA
+182,6,56065,OASyS DNA,OASyS DNA
+183,6,56066,OASyS DNA,OASyS DNA
+184,6,56067,OASyS DNA,OASyS DNA
+185,6,56068,OASyS DNA,OASyS DNA
+186,6,56069,OASyS DNA,OASyS DNA
+187,6,56070,OASyS DNA,OASyS DNA
+188,6,56071,OASyS DNA,OASyS DNA
+189,6,56072,OASyS DNA,OASyS DNA
+190,6,56073,OASyS DNA,OASyS DNA
+191,6,56074,OASyS DNA,OASyS DNA
+192,6,56075,OASyS DNA,OASyS DNA
+193,6,56076,OASyS DNA,OASyS DNA
+194,6,56077,OASyS DNA,OASyS DNA
+195,6,56078,OASyS DNA,OASyS DNA
+196,6,56079,OASyS DNA,OASyS DNA
+197,6,56080,OASyS DNA,OASyS DNA
+198,6,56081,OASyS DNA,OASyS DNA
+199,6,56082,OASyS DNA,OASyS DNA
+200,6,56083,OASyS DNA,OASyS DNA
+201,6,56084,OASyS DNA,OASyS DNA
+202,6,56085,OASyS DNA,OASyS DNA
+203,6,56086,OASyS DNA,OASyS DNA
+204,6,56087,OASyS DNA,OASyS DNA
+205,6,56088,OASyS DNA,OASyS DNA
+206,6,56089,OASyS DNA,OASyS DNA
+207,6,56090,OASyS DNA,OASyS DNA
+208,6,56091,OASyS DNA,OASyS DNA
+209,6,56092,OASyS DNA,OASyS DNA
+210,6,56093,OASyS DNA,OASyS DNA
+211,6,56094,OASyS DNA,OASyS DNA
+212,6,56095,OASyS DNA,OASyS DNA
+213,6,56096,OASyS DNA,OASyS DNA
+214,6,56097,OASyS DNA,OASyS DNA
+215,6,56098,OASyS DNA,OASyS DNA
+216,6,56099,OASyS DNA,OASyS DNA
+217,6,9600,FINS communication protocol,FINS communication protocol
+218,17,9600,FINS communication protocol,FINS communication protocol
+219,6,2123,GTP (GPRS TUnneling Protocol),Control Plane
+220,17,2123,GTP (GPRS TUnneling Protocol),Control Plane
+221,6,2152,GTP (GPRS TUnneling Protocol),User Plane
+222,17,2123,GTP (GPRS TUnneling Protocol),User Plane
+223,17,47808,BACNet,BACNet
+224,6,5450,Cim/IO,Cim/IO
+225,17,5450,Cim/IO,Cim/IO
+226,6,5450,Cim/IO,Cim/IO
+227,6,4545,Atlas Copco Open Protocol,Atlas Copco Open Protocol
+228,6,6881,Bittorrent,Bittorrent traffic
+229,6,6882,Bittorrent,Bittorrent traffic
+230,6,6883,Bittorrent,Bittorrent traffic
+231,6,6884,Bittorrent,Bittorrent traffic
+232,6,6885,Bittorrent,Bittorrent traffic
+233,6,6886,Bittorrent,Bittorrent traffic
+234,6,6887,Bittorrent,Bittorrent traffic
+235,6,6888,Bittorrent,Bittorrent traffic
+236,6,6889,Bittorrent,Bittorrent traffic
+237,6,6881,Bittorrent,Bittorrent traffic
+238,6,6882,Bittorrent,Bittorrent traffic
+239,6,6883,Bittorrent,Bittorrent traffic
+240,6,6884,Bittorrent,Bittorrent traffic
+241,6,6885,Bittorrent,Bittorrent traffic
+242,6,6886,Bittorrent,Bittorrent traffic
+243,6,6887,Bittorrent,Bittorrent traffic
+244,6,6888,Bittorrent,Bittorrent traffic
+245,6,6889,Bittorrent,Bittorrent traffic
+246,17,6881,Bittorrent,Bittorrent traffic
+247,17,6882,Bittorrent,Bittorrent traffic
+248,17,6883,Bittorrent,Bittorrent traffic
+249,17,6884,Bittorrent,Bittorrent traffic
+250,17,6885,Bittorrent,Bittorrent traffic
+251,17,6886,Bittorrent,Bittorrent traffic
+252,17,6887,Bittorrent,Bittorrent traffic
+253,17,6888,Bittorrent,Bittorrent traffic
+254,17,6889,Bittorrent,Bittorrent traffic
+255,21,6881,Bittorrent,Bittorrent traffic
+256,21,6882,Bittorrent,Bittorrent traffic
+257,21,6883,Bittorrent,Bittorrent traffic
+258,21,6884,Bittorrent,Bittorrent traffic
+259,21,6885,Bittorrent,Bittorrent traffic
+260,21,6886,Bittorrent,Bittorrent traffic
+261,21,6887,Bittorrent,Bittorrent traffic
+262,21,6888,Bittorrent,Bittorrent traffic
+263,21,6889,Bittorrent,Bittorrent traffic
+264,6,6969,Bittorrent,Bittorrent tracker
+265,17,1234,BSAP,BSAP
+266,17,1234,BSAP/IP,BSAP/IP
+267,17,61450,CC-LINK IE Field,CC-LINK IE Field cyclic transmission
+268,17,61451,CC-LINK IE Field,CC-LINK IE Field automatic detection
+269,6,4224,CDP,Cisco Discovery Protocol
+270,17,1985,HSRP,Hot Standby Router Protocol
+271,6,17600,Dropbox,Dropbox web
+272,6,17603,Dropbox,Dropbox web
+273,6,17500,Dropbox,Dropbox LAN Sync
+274,6,4661,eMule,eMule
+275,17,4665,eMule,eMule
+276,17,4672,eMule,eMule
+277,6,4675,eMule,eMule
+278,6,7561,eMule,eMule
+279,17,7571,eMule,eMule
+280,6,28221,eMule,eMule
+281,6,502,Enron Modbus,Enron Modbus
+282,6,802,Enron Modbus,Enron Modbus
+283,6,8193,Focas,Focas
+284,6,1090,Foundation Fieldbus,Foundation Fieldbus
+285,6,9001,Foxboro I/A,Foxboro I/A
+286,17,9001,Foxboro I/A,Foxboro I/A
+287,17,18246,EGD,Ethernet Global Data
+288,17,7937,EGD,Ethernet Global Data
+289,17,7927,EGD,Ethernet Global Data
+290,17,53014,iFix2iFix,iFix2iFix
+291,6,2010,iFix2iFix,iFix2iFix
+292,6,18245,SRTP,Service Request Transport Protocol
+293,6,18246,SRTP,Service Request Transport Protocol
+294,6,3956,GVCP,GigE Vision Control
+295,17,3956,GVCP,GigE Vision Control
+296,6,446,DRDA,Distributed Relational Database Architecture
+297,6,447,DRDA,Distributed Relational Database Architecture
+298,6,448,DRDA,Distributed Relational Database Architecture
+299,6,993,ZMTP,ZeroMQ Message Transport Protocol
+300,6,993,ZMTP,ZeroMQ Message Transport Protocol
+301,17,67,DHCP,Dynamic Host Configuration Protocol
+302,17,68,DHCP,Dynamic Host Configuration Protocol
+303,17,546,DHCPv6,Dynamic Host Configuration Protocol
+304,17,547,DHCPv6,Dynamic Host Configuration Protocol
+305,17,53,DNS,Domain Name System
+306,6,53,DNS,Domain Name System
+307,17,21,FTP,File Transfer Protocol
+308,6,21,FTPS,File Transfer Protocol
+309,6,80,HTTP,Hypertext Transfer Protocol
+310,6,443,HTTPS,Hypertext Transfer Protocol Secure
+311,17,500,IKE,Internet Key Exchange
+312,17,143,IMAP,Internet Message Access Protocol
+313,6,143,IMAP,Internet Message Access Protocol
+314,17,993,IMAPS,Internet Message Access Protocol Secure
+315,6,993,IMAPS,Internet Message Access Protocol Secure
+316,6,88,Kerberos,Kerberos
+317,17,88,Kerberos,Kerberos
+318,6,389,LDAP,Lightweight Directory Access Protocol
+319,17,389,LDAP,Lightweight Directory Access Protocol
+320,6,5355,LLMNR,LLMNR
+321,17,5355,LLMNR,LLMNR
+322,6,5353,MDNS,Multicast DNS
+323,17,5353,MDNS,Multicast DNS
+324,6,137,NetBIOS,NETBIOS Name Service
+325,17,137,NetBIOS,NETBIOS Name Service
+326,6,138,NetBIOS,NETBIOS Datagram Service
+327,17,138,NetBIOS,NETBIOS Datagram Service
+328,6,123,NTP,Network Time Protocol
+329,17,123,NTP,Network Time Protocol
+330,6,8899,OSPF,Open Shortest Path First
+331,17,8899,OSPF,Open Shortest Path First
+332,6,110,POP3,Post Office Protocol - Version 3
+333,17,110,POP3,Post Office Protocol - Version 3
+334,6,1812,Radius,Radius
+335,17,1812,Radius,Radius
+336,6,1813,Radius,Radius
+337,17,1813,Radius,Radius
+338,17,5060,SIP,SIP
+339,6,5060,SIP,SIP
+340,6,25,SMTP,Simple Mail Transfer
+341,17,25,SMTP,Simple Mail Transfer
+342,6,161,SNMP,Simple Network Management Protocol
+343,17,161,SNMP,Simple Network Management Protocol
+344,6,162,SNMP,Simple Network Management Protocol
+345,17,162,SNMP,Simple Network Management Protocol
+346,17,1900,SSDP,SSDP
+347,6,22,SSH,The Secure Shell
+348,17,514,Syslog,Syslog - used for system logging
+349,6,23,Telnet,Telnet
+350,17,69,TFTP,Trivial File Transfer Protocol
+351,6,5413,Wonderwave,Suitelink DA
+352,17,5413,Wonderwave,Suitelink DA
+353,6,5938,TeamViewer,TeamViewer
+354,17,5938,TeamViewer,TeamViewer
+355,6,2967,Symantec AntiVirus Corporate Edition,Symantec AntiVirus Corporate Edition
+356,6,2638,Symantec Endpoint Protection Manager,Symantec Endpoint Protection Manager
+357,6,8014,Symantec Endpoint Protection,Symantec Endpoint Protection
+358,6,102,S7,S7
+359,6,2222,CSP2,CSP2
+360,17,2222,CSP2,CSP2
+361,6,2223,CSP2,CSP2
+362,17,2223,CSP2,CSP2
+363,6,5900,VNC,VNC
+364,17,4666,eDonkey,eDonkey
+365,17,5737,eDonkey,eDonkey
+366,17,4666,eDonkey,eDonkey
+367,6,4661,eDonkey,eDonkey
+368,6,4662,eDonkey,eDonkey
+369,6,4663,eDonkey,eDonkey
+370,17,9999,eDonkey,eDonkey
+371,6,9999,eDonkey,eDonkey

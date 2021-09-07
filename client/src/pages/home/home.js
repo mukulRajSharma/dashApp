@@ -21,6 +21,7 @@ import {
 } from 'devextreme-react/popup';
 import { TagBox } from 'devextreme-react/tag-box';
 import Form, { Item } from 'devextreme-react/form';
+import DropDownBox from 'devextreme-react/drop-down-box';
 
 
 var jj = require('./port_info.json');
@@ -166,10 +167,11 @@ class App extends React.Component {
                   showTitle={true}
                   title="Edit Service"
                   width={800}
-                  height={450} 
+                  height={550} 
                   resizeEnabled={true}
                   visible={this.state.isTagVisible}
                   onHiding={this.hideTag}
+                  
               >
                 <div>
               <Form
@@ -182,8 +184,25 @@ class App extends React.Component {
                 <Item dataField="IP Protcol" editorOptions={{ disabled: false }} />
                 <Item dataField="Service" editorOptions={{ disabled: false }} />
                 <Item dataField="Name" editorOptions={{ disabled: false }} />
-                <Item dataField="Source" editorOptions={{ disabled: false }} />              
+                <Item dataField="Source" editorOptions={{ disabled: false }} />
+                           
               </Form>
+              <div style={{'margin':20}}>
+                <DropDownBox
+                    valueExpr="Vendor"
+                    displayExpr="vendor"
+                    placeholder="Select a Vendor..."
+                    showClearButton={true}
+                />
+              </div>
+              <div style={{'margin':20}}>
+                <DropDownBox
+                  valueExpr="Tags"
+                  displayExpr="tags"
+                  placeholder="Select tags..."
+                  showClearButton={true}
+                /> 
+              </div>
             </div>
             <div style={{'text-align':'center', margin:20}}>
               <Button

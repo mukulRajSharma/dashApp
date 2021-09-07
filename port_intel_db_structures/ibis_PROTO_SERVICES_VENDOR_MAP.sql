@@ -7,5 +7,6 @@ create table PROTO_SERVICES_VENDOR_MAP
     constraint PROTO_VENDOR_MAP_PROTO_SERVICES_ID_fk
         foreign key (SERVICE_ID) references PROTO_SERVICES (ID),
     constraint PROTO_VENDOR_MAP_PROTO_VENDORS_ID_fk
-        foreign key (VENDOR_ID) references PROTO_VENDORS (ID)
+        foreign key (VENDOR_ID) references PROTO_VENDORS (ID),
+    index (SERVICE_ID)
 );
